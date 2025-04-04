@@ -1,0 +1,9 @@
+num_epochs: 1000
+batch_size: 32
+lr: 0.0003
+gpu_id: 0
+train_csv_path: </path/to/your/training/csv>
+valid_csv_path: </path/to/your/validation/csv>>
+json_dir: </path/to/your/feature/vectors>
+output_dir: results
+task: age # change for desired task
